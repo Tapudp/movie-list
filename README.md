@@ -2,7 +2,7 @@
 
 ## Overview
 
-Briefly describe your app and its purpose here.
+Movie fans delight to watch and search through their favourite movies.
 
 ## Folder Structure
 
@@ -26,7 +26,7 @@ The app is organized into the following folders:
 
 ## Local Development
 
-Provide instructions on how to set up and run the app locally. Include any necessary installation steps and commands.
+- Make sure to install node.js latest version on your local machine.
 
 ```bash
 # Install dependencies
