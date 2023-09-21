@@ -4,6 +4,7 @@ import '../styles/navbar.css';
 import { useDataContext } from '../context/DataContext';
 
 export default function Navbar() {
+  // page title as fetched from the backend api
   const { pageTitle } = useDataContext();
   return (
     <div className='navbar'>

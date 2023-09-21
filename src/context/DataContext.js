@@ -19,6 +19,7 @@ export const DataProvider = ({ children }) => {
 
   // fetch the page data
   const fetchData = async () => {
+    // resetting status and loading state
     setStatus('');
     setIsLoading(true);
     try {

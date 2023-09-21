@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { useDataContext } from '../context/DataContext';
 import Loader from './Loader';
 
+// lazy loading with intersection observer
 const LazyLoading = () => {
   const { isLoading, contextError, fetchData } = useDataContext();
   const observer = useRef();

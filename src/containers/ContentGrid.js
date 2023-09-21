@@ -3,6 +3,7 @@ import { useDataContext } from '../context/DataContext';
 import '../styles/content-grid.css';
 import LazyLoading from '../components/LazyLoading';
 
+// renders the grid with lazy loading marker and a loader
 export default function ContentGrid() {
   const { data, contextError, filteredData } = useDataContext();
   const rowsToRender = filteredData.length === 0 ? data : filteredData;

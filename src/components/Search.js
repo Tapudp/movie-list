@@ -8,6 +8,7 @@ const Search = () => {
   const [query, setQuery] = useState('');
 
   const onSearchChange = (e) => {
+    // move out if the event is not captured
     if (!e) {
       return;
     }

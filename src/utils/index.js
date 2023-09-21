@@ -1,5 +1,6 @@
 import constants from '../constants';
 
+// formats the fetched data item with image field attached to base url
 function formatDataWithImage(item) {
   return {
     ...item,
