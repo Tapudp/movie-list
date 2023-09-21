@@ -35,3 +35,7 @@ npm install
 # Start the development server
 npm start
 ```
+
+## Releases
+
+- [Check the release update notes here](https://github.com/Tapudp/movie-list/blob/main/RELEASE_SEPTEMBER_21.md)
