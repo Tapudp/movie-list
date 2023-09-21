@@ -1,0 +1,31 @@
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-field{
+    border: 2px solid;
+    padding: 5px;
+    margin: 2px 5px;
+    border-radius: 5px;
+}
+
+.search-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.search-btn {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:transparent;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-btn:disabled{
+    border: 1px;
+    cursor: not-allowed;
+}

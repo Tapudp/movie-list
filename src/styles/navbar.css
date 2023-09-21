@@ -1,0 +1,26 @@
+.navbar{
+  background-color: cornflowerblue;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 98%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+
+
+.app-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}

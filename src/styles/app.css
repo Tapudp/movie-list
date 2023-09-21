@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+/* moving lazy market a bit below the content */
+#lazy-load-marker{
+  margin: 5px;
+  padding: 1px;
+}
